@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FatsFood</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <div class="logo"><img src="uk.webp" alt=" " height="120px" /></div>
+            <div id="menu">
+                <div class="item">
+                    <h4><a href="">Đồ ăn</a></h4>
+                </div>
+                <div class="item">
+                    <h4><a href="">Thực Phẩm</a></h4>
+                </div>
+
+                <div class="item">
+                    <h4><a href="">Vật Dụng</a></h4>
+                </div>
+                <div class="item">
+                    <h4><a href="">Đăng Nhập</a></h4>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container-3">
+                    <span class="icon"><i class="fa fa-search"></i></span>
+                    <input type="search" id="search" placeholder="Search..." />
+                </div>
+            </div>
+        </div>
+        <div class="slideshow">
+            <!-- Slides -->
+            <img class="slides" src="pexels-roman-odintsov-4551567.jpg" width="100%" height="350px"
+                style="object-fit: cover" />
+            <img class="slides" src="pexels-zo-willibrord-3763426.jpg" width="100%" height="350px"
+                style="object-fit: cover" />
+            <img class="slides" src="pexels-alteredsnaps-14226653.jpg" width="100%" height="350px"
+                style="object-fit: cover" />
+            <script>
+                w3.slideshow(".slides", 1500);
+            </script>
+        </div>
+
+        <div id="wp-products">
+            <div class="danh-muc">
+                <button>Tất Cả</button>
+                <button>Nướng</button>
+                <button>Đồ Ăn</button>
+                <button>Đồ Uống</button>
+
+                <button>Món Lẩu</button>
+                <button>Pizza/Burger</button>
+                <button>Mỳ,Phở</button>
+            </div>
+
+            <center>
+                <h3>SẢN PHẨM CỦA CHÚNG TÔI</h3>
+            </center>
+            <div id="list-products">
+                <div class="item" id="i1">
+                    <div class="item-image">
+                        <img src="pexels-valeria-boltneva-1251198.jpg" alt="" />
+                    </div>
+                    <center>
+                        <div class="desc">⭐️⭐️⭐️⭐️⭐️</div>
+                        <div class="name">Món ăn 1</div>
+                        <div class="desc">Mô tả ngắn cho sản phẩm</div>
+                        <div class="price">500.000 VNĐ</div>
+                    </center>
+                </div>
+                <div class="item" id="i2">
+                    <div class="item-image">
+                        <img src="pexels-senuscape-2313682.jpg" alt="" />
+                    </div>
+
+                    <center>
+                        <div class="desc">⭐️⭐️⭐️⭐️⭐️</div>
+                        <div class="name">Món ăn 2</div>
+                        <div class="desc">Mô tả ngắn cho sản phẩm</div>
+                        <div class="price">500.000 VNĐ</div>
+                    </center>
+                </div>
+                <div class="item" id="i3">
+                    <div class="item-image">
+                        <img src="pexels-j-a-n-n-g-u-y-e-n-🍁-699953.jpg" alt="" />
+                    </div>
+                    <center>
+                        <div class="desc">⭐️⭐️⭐️⭐️⭐️</div>
+                        <div class="name">Món ăn 3</div>
+                        <div class="desc">Mô tả ngắn cho sản phẩm</div>
+                        <div class="price">500.000 VNĐ</div>
+                    </center>
+                </div>
+            </div>
+            <div id="list-products">
+                <div class="item" id="i4">
+                    <div class="item-image">
+                        <img src="pexels-markus-winkler-3858270.jpg" alt="" />
+                    </div>
+                    <center>
+                        <div class="desc">⭐️ ⭐️ ⭐️⭐️⭐️</div>
+                        <div class="name">Món ăn 4</div>
+                        <div class="desc">Mô tả ngắn cho sản phẩm</div>
+                        <div class="price">500.000 VNĐ</div>
+                    </center>
+                </div>
+                <div class="item" id="i5">
+                    <div class="item-image">
+                        <img src="pexels-quang-nguyen-vinh-2133989.jpg" alt="" />
+                    </div>
+                    <center>
+                        <div class="desc">⭐️⭐️⭐️⭐️⭐️</div>
+
+                        <div class="name">Món ăn 5</div>
+                        <div class="desc">Mô tả ngắn cho săn phẩm</div>
+                        <div class="price">500.000 VNĐ</div>
+                    </center>
+                </div>
+                <div class="item" id="i6">
+                    <div class="item-image">
+                        <img src="pexels-jer-chung-2059153.jpg" alt="" />
+                    </div>
+                    <center>
+                        <div class="desc">⭐️⭐️⭐️⭐️⭐️</div>
+                        <div class="name">Món ăn 6</div>
+                        <div class="desc">Mô tả ngắn cho sản phâm</div>
+                        <div class="price">500.000 VNĐ</div>
+                    </center>
+                </div>
+            </div>
+            <div class="list-page">
+                <div class="iten">
+                    <a href="">1</a>
+                </div>
+                <div class="iten">
+                    <a href="">2</a>
+                </div>
+                <div class="iten">
+                    <a href="">3</a>
+                </div>
+                <div class="iten">
+                    <a href="">4</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="echbay-sms-messenger style-for-position-br">
+        <div class="phonering-alo-alo">
+            <a href="tel:0869842880" rel="nofollow" class="echbay-phonering-alo-event">.</a>
+        </div>
+        <div class="phonering-alo-sms">
+            <a href="sms:0869842880" rel="nofollow" class="echbay-phonering-sms-event">.</a>
+        </div>
+
+        <div class="phonering-alo-messenger">
+            <a href="https://www.messenger.com/t/100066789799200/" target="_blank" rel="nofollow"
+                class="echbay-phonering-messenger-event">.</a>
+        </div>
+    </div>
+    <div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3779.441979483456!2d105.68844877520219!3d18.68902046400709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3139cd21dfbe1385%3A0x8e5d5390d56818a7!2sVIETTELPOST%20NGH%E1%BB%86%20AN!5e0!3m2!1svi!2s!4v1698757975989!5m2!1svi!2s"
+            width="100%" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+    <div class="container">
+        <div class="row">
+            <h1>Liên hệ</h1>
+        </div>
+        <div class="row input-container">
+            <div class="col-xs-12">
+                <div class="styled-input wide">
+                    <input type="text" required />
+                    <label>Tên</label>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="styled-input">
+                    <input type="text" required />
+                    <label>Email</label>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="styled-input" style="float: right">
+                    <input type="text" required />
+                    <label>Số Điện Thoại</label>
+                </div>
+            </div>
+            <div class="col-xs-12">
+                <div class="styled-input wide">
+                    <textarea required></textarea>
+                    <label>Tin Nhắn</label>
+                </div>
+            </div>
+            <div class="col-xs-12">
+                <div class="btn-lrg submit-btn">Gửi Tin Nhắn</div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="grid">
+            <div class="grid__row">
+                <div class="grid__colum-2-4">
+                    <h4 class="footer__heading">Chăm sóc khách hàng</h4>
+                    <ul class="foooter__list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+                        </li>
+                        <li><a href="" class="footer-item__link">Fast mall</a></li>
+                        <li>
+                            <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__colum-2-4">
+                    <h4 class="footer__heading">Giới thiệu</h4>
+                    <ul class="foooter__list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">liên hệ : SĐT 0869842880</a>
+                        </li>
+                        <li>
+                            <a href="" class="footer-item__link">Người làm nội dung : Phan Thành</a>
+                        </li>
+                        <li>
+                            <a href="" class="footer-item__link">Địa chỉ : tòa nhà vietell</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__colum-2-4">
+                    <h4 class="footer__heading">Dịch Vụ</h4>
+                    <ul class="foooter__list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Đặt Phòng VIP</a>
+                        </li>
+                        <li><a href="" class="footer-item__link">Đặt Hàng Về Nhà</a></li>
+                        <li><a href="" class="footer-item__link">Đặt bàn </a></li>
+                    </ul>
+                </div>
+                <div class="grid__colum-2-4">
+                    <h4 class="footer__heading">Danh Mục</h4>
+                    <ul class="foooter__list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Dịch Vụ</a>
+                        </li>
+                        <li><a href="" class="footer-item__link">Fast mall</a></li>
+                        <li><a href="" class="footer-item__link"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript">
+        document.getElementById("i1").onclick = function () {
+            location.href = "trang.html";
+        };
+        document.getElementById("i2").onclick = function () {
+            location.href = "jjk.html";
+        };
+        document.getElementById("i3").onclick = function () {
+            location.href = "htttt.html";
+        };
+        document.getElementById("i4").onclick = function () {
+            location.href = "hy.html";
+        };
+        document.getElementById("i5").onclick = function () {
+            location.href = "huj.html";
+        };
+        document.getElementById("i6").onclick = function () {
+            location.href = "vtc.html";
+        };
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="kink.css">
+</head>
+
+<body>
+  <div class="login">
+    <h2>Member login</h2>
+
+    <form name="myform" method="post" action="index.html" onsubmit="return validateform()">
+      <input type="text"
+        placeholder="username" name="name" class="input">
+      <input type="password" placeholder="password" name="password" class="input">
+      <input type="submit" value="Login" class="button">
+    </form>
+  </div>
+
+  <script>
+    function validateform() {
+      var name = document.myform.name.value;
+      var password = document.myform.password.value;
+
+      if (name == null || name == "") {
+        alert("Tên không được bỏ trống");
+        return false;
+      } else if (password.length < 6) {
+        alert("Mật khẩu tối thiểu 6 ký tự");
+        return false;
+      }
+      if (name != "mindx"){
+        alert("Thông tin đăng nhập sai");
+        return false
+      } else if (password != "na-234") {
+        alert("Thông tin đăng nhập sai");
+        return false
+      }
+    }
+  </script>
+</body>
+
+</html>
